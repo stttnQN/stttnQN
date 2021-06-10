@@ -33,7 +33,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('https://stttnqn.github.io/stttnQN/model_v2/model.json');
-	$("#selected-image").attr("src", "../assets/auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg")
+	$("#selected-image").attr("src", "https://stttnqn.github.io/assets/auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg")
 	
 	$('.progress-bar').hide();
 
